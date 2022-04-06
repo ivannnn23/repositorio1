@@ -1,0 +1,208 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+.nav__name{
+	
+	width: 100%;
+	margin: 0 auto;
+	background-color: black;
+  size: 20px;
+}
+
+
+#logoup{
+	color: white;
+	 width: 20%;
+  	margin: 0 auto;
+  	text-align: center;
+  	font-size: 35px;
+}
+
+
+.container {
+  width: 20%;
+  margin: 0 auto;
+  max-width: 1320px;
+  text-align: center;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.col {
+  width: 100%;
+}
+
+header {
+  background-color: #4D4D4D;
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#logonav{
+  margin: auto;
+  padding: 0;
+  width: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__list {
+  	list-style: none;
+  	display: flex;
+}
+
+.nav-item {
+  margin: 0 0 0 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  opacity: 0.65;
+}
+
+/*CENTRO*/
+
+.textup{
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+}
+
+img {
+  max-width: 50%;
+}
+
+h2{
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  margin: 30px;
+}
+
+li{
+  list-style: none;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+  
+}
+
+.precio{
+  text-align: center;
+  margin: 20px;
+}
+
+article img {
+  order: -1;
+  align-self: center;
+}
+
+article button {
+  margin-top: auto;
+  background: black;
+  background: radial-gradient(#212121, #757575);
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 26px 3px rgba(87,82,82,0.81);
+-webkit-box-shadow: 0px 5px 26px 3px rgba(87,82,82,0.81);
+-moz-box-shadow: 0px 5px 26px 3px rgba(87,82,82,0.81);
+transition: all 0.5s;
+}
+
+button:hover {
+background: radial-gradient(#757575,#212121);
+}
+
+button:focus{
+  outline-style: solid;
+}
+
+
+
+/*footer*/
+
+footer{
+  background-color: black;
+}
+
+footer{
+  max-width: 100%;
+  width: 100%;
+}
+
+h4{
+margin: 10px 0 0 0;
+}
+
+#icono, #icono2, #icono3{
+  width: 2%;
+  margin:5px
+}
+
+#redes{
+  text-align: right;
+}
+
+
+h3{
+  color: white;
+}
+
+#logolow{
+  color: white;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 35px;
+}
+
+#logofooter{
+  margin: 0 auto;
+  padding: 0;
+  width: 2%;
+  display: flex;
+  justify-content: center;

@@ -1,0 +1,167 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+.nav__name{
+	
+	width: 100%;
+	margin: 0 auto;
+	background-color: black;
+  size: 20px;
+}
+
+
+#logoup{
+	color: white;
+	 width: 20%;
+  	margin: 0 auto;
+  	text-align: center;
+  	font-size: 35px;
+}
+
+
+.container {
+  width: 20%;
+  margin: 0 auto;
+  max-width: 1320px;
+  text-align: center;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.col {
+  width: 100%;
+}
+
+header {
+  background-color: #4D4D4D;
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#logonav{
+  margin: auto;
+  padding: 0;
+  width: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__list {
+  	list-style: none;
+  	display: flex;
+}
+
+.nav-item {
+  margin: 0 0 0 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  opacity: 0.65;
+}
+
+.center{
+  margin: 80px;
+  padding: 0;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.elaboracion{
+  margin: 80px;
+  padding: 20px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+h2{
+
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/*footer*/
+
+footer{
+  background-color: black;
+}
+
+footer{
+  max-width: 100%;
+  width: 100%;
+}
+
+h4{
+margin: 10px 0 0 0;
+}
+
+#icono, #icono2, #icono3{
+  width: 2%;
+  margin:5px
+}
+
+#redes{
+  text-align: right;
+}
+
+
+h3{
+  color: white;
+}
+
+#logolow{
+  color: white;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 35px;
+}
+
+#logofooter{
+  margin: 0 auto;
+  padding: 0;
+  width: 2%;
+  display: flex;
+  justify-content: center;
